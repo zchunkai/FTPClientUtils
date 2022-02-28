@@ -14,16 +14,12 @@ import java.util.Map;
 public class FTPClientUtils {
     private static Logger logger = LoggerFactory.getLogger(FTPClientUtils.class);
 
-    public static String hostname = "47.94.45.32";
-    //ftp登录账号
-    public static String username = "beijingyilingyi_ro";
-    //ftp登录密码
-    public static String password = "lnsYa0AGrKniYy82kZhC";
+
     //测试
-    /***  public static String hostname = "39.106.254.228";
+    public static String hostname = "39.106.254.228";
     public static String username = "rechdebug";
     public static String password = "kjfh049uJHdskjdh2ui";
-     */
+
 
     //ftp服务器端口号默认为21
     public static Integer port = 50021 ;
@@ -399,7 +395,6 @@ public class FTPClientUtils {
 //			File f=new File("D:/bbb.jpg");
 //			System.out.println(ftp.downloadFileq("/AS/20190730/12345678/", "1.jpg", f));
 
-        // ftp.deleteFile("/US", "test111.png");
 
         readFileContent("D:/"+DateUtil.getDayDateString(0)+"_"+"111261_144_20210805.txt");
     }
